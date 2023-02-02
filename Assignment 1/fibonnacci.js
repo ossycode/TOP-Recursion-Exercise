@@ -14,7 +14,7 @@ function fibs(n) {
 
 // Solving Recursively
 function fibRecur(n) {
-    if (n <= 2) return [0,1];
+    if (n <= 2 ) return [0,1];
     else return [...fibRecur(n-1), fibRecur(n-1)[n-2] + fibRecur(n-1)[n-3]];
     
 }
